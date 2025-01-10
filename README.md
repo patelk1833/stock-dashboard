@@ -1,7 +1,7 @@
 # Stock Market Data Analysis Dashboard using Python and Streamlit
 ### By: **Krish Patel**  
 ### Date: **2/10/2025**
-[Dashboard](https://stock-dashboard-f2gvrrhmca2pfxn8yd6gfd.streamlit.app/)
+#### [Dashboard](https://stock-dashboard-f2gvrrhmca2pfxn8yd6gfd.streamlit.app/)
 ---
 
 ## Overview
