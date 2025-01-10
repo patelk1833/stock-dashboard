@@ -1,0 +1,2 @@
+# Prevent sensitive data from being pushed to GitHub
+.streamlit/secrets.toml
