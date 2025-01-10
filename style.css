@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* General Styling */
+body {
+    background-color: #121212;  /* Dark background for main content */
+    color: #e0e0e0;  
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styling - White for contrast */
+[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 2px solid #e0e0e0;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+}
+
+[data-testid="stSidebar"] h1, 
+[data-testid="stSidebar"] h2, 
+[data-testid="stSidebar"] h3, 
+[data-testid="stSidebar"] label {
+    color: #121212;
+}
+
+/* Input Fields and Sliders */
+input[type="text"], input[type="date"], .stTextInput, .stSlider {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #121212;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    border: 2px solid #bb86fc;
+    box-shadow: 0px 0px 12px rgba(98, 0, 234, 0.9);
+}
+
+/* Button Styling */
+button {
+    background-color: #333;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+    border: 1px solid #121212;
+}
+
+/* Tabs Styling */
+div[data-testid="stTabs"] button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stTabs"] button:hover {
+    background-color: #bb86fc;
+    color: white;
+    border: none;
+}
+
+/* Header Styling */
+h1, h2, h3 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(255,255,255,0.2);
+}
+
+/* Table Styling */
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    border: 1px solid #444;
+    padding: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #e0e0e0;
+    border-radius: 12px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+/* Footer Styling */
+footer {
+    color: #888;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
