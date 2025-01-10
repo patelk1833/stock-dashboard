@@ -1,6 +1,7 @@
 # Stock Market Data Analysis Dashboard using Python and Streamlit
 ### By: **Krish Patel**  
 ### Date: **2/10/2025**
+- **Dashboard**: [Open the Live Dashboard](https://stock-dashboard-f2gvrrhmca2pfxn8yd6gfd.streamlit.app/)
 ---
 
 ## Overview
@@ -77,14 +78,10 @@ The future scope of this project includes:
 ---
 
 ## Repository Contents
-- **main.py:** The core Python script that runs the Streamlit dashboard.  
-- **requirements.txt:** List of dependencies required for running the project.  
-- **style.css:** Custom CSS for enhancing the visual appearance of the dashboard.  
-- **.gitignore:** Specifies files and folders to exclude from version control (e.g., `.streamlit/secrets.toml`).  
-- **README.md:** Provides a summary of the project, setup instructions, and usage guidelines.
 
----
-
-## Dashboard Link:
-You can access the live dashboard here: **[Stock-dashboard-Streamlit](#)**  
+- **main.py**: The core Python script that runs the Streamlit dashboard. [View on GitHub](https://github.com/patelk1833/stock-dashboard/blob/main/main.py)
+- **requirements.txt**: List of dependencies required for running the project. [View on GitHub](https://github.com/patelk1833/stock-dashboard/blob/main/requirements.txt)
+- **style.css**: Custom CSS for enhancing the visual appearance of the dashboard. [View on GitHub](https://github.com/patelk1833/stock-dashboard/blob/main/style.css)
+- **Dashboard**: [Open the Live Dashboard](https://stock-dashboard-f2gvrrhmca2pfxn8yd6gfd.streamlit.app/)
+ 
 
